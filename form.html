@@ -3,50 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form</title>
+  <title>Form with bootstrap</title>
   <link rel="stylesheet" href="./css/manifest.css">
 </head>
 <body>
-  <form action="">
-    <div class="container">
-      <div class="form-row">
-        <div class="col-md">
-          <label for="validationDefault01">First name</label>
-          <input type="text" class="form-control" id="validationDefault01" value="" required>
-        </div>
-        <div class="col-md">
-          <label for="validationDefault02">Last name</label>
-          <input type="text" class="form-control" id="validationDefault02" value="" required>
-        </div>
+  <header>
+    <h1>Creating a form with bootstrap</h1>
+  </header>
+  <div class="container">
+    <form action="">
+      <div class="row">
+        <div class="clomd-8">
+
+          <div class="container">
+            <div class="form-row">
+              <div class="col-md">
+                <label for="validationDefault01">First name</label>
+                <input type="text" class="form-control" id="validationDefault01" value="" required>
+              </div>
+              <div class="col-md">
+                <label for="validationDefault02">Last name</label>
+                <input type="text" class="form-control" id="validationDefault02" value="" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputState">What are you?</label>
+                <select id="inputState" class="form-control">
+                  <option selected>I AM A ROBOT</option>
+                  <option>I AM A STUDENT</option>
+                  <option>I AM A TEACHER</option>
+                  <option>I AM A DOCTOR</option>
+                  <option>I AM A CODER</option>
+                  <option>I AM A FARMER</option>
+                  <option>I AM A POLICE</option>
+                  <option>I AM A FOOTBALL PlAYER</option>
+                  <option>I AM AN ACTOR</option>
+                  <option>OTHERS</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I agree to the <a href="/">terms and conditions</a></label>
+            </div>
+            <button type="save" class="btn btn-primary">Save</button>
+          </div>
       </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-      </div>
-      <div class="form-row">
-        <div class="form-group col-md-6">
-          <label for="inputState">What are you?</label>
-          <select id="inputState" class="form-control">
-            <option selected>I AM A ROBOT</option>
-            <option>I AM A STUDENT</option>
-            <option>I AM A TEACHER</option>
-            <option>I AM A DOCTOR</option>
-            <option>I AM A CODER</option>
-            <option>I AM A FARMER</option>
-            <option>I AM A POLICE</option>
-            <option>I AM A FOOTBALL PlAYER</option>
-            <option>I AM AN ACTOR</option>
-            <option>OTHERS</option>
-          </select>
-        </div>
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">I agree to the <a href="/">terms and conditions</a></label>
-      </div>
-      <button type="save" class="btn btn-primary">Save</button>
-    </div>
-  </form>
+      <aside class=" col-md-4 offset-md-2 alert alert-primary">
+        <p class="lead">Thank you for registering with us</p>
+        <p>We won't sell your information</p>
+      </aside>
+    </form>
+  </div>
 </body>
 </html>
