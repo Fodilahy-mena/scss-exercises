@@ -2,9 +2,11 @@
  @import "../node_modules/bootstrap/scss/functions";
  
 //  @import "./variables/bootstrap-defaults";
- @import "./variables/bootstrap-custom";
+ @import "../scss/variables/bootstrap-custom";
  
  @import "../node_modules/bootstrap/scss/mixins";
+ @import "./components/panels";
+
  @import "../node_modules/bootstrap/scss/root";
  @import "../node_modules/bootstrap/scss/reboot";
 //  @import "../node_modules/bootstrap/scss/type";

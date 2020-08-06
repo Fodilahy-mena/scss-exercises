@@ -3,6 +3,8 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
+
+
 // Color system
 
 $white:    #fff !default;
@@ -1145,3 +1147,13 @@ $user-selects: all, auto, none !default;
 
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+// Custom panel
+
+$blackbg-panel:  $black;
+$redbg-panel: $red;
+$whitebg-panel: $white;
+$panel-padding: 2rem;
+$margin-bottom: $alert-margin-bottom;
+$bg-color: $gray-400;
+// alert

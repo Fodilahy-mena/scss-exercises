@@ -1,0 +1,22 @@
+.body {
+  background-color: $gray-400;
+}
+.bg-panel-black {
+  background-color: $blackbg-panel;
+  padding: $panel-padding;
+  color: $whitebg-panel;
+  margin-bottom: $margin-bottom;
+}
+
+.bg-panel-red {
+  background-color: $redbg-panel;
+  padding: $panel-padding;
+  color: $whitebg-panel;
+  margin-bottom: $margin-bottom;
+}
+
+.bg-panel-white {
+  background-color: $whitebg-panel;
+  padding: $panel-padding;
+  margin-bottom: $margin-bottom;
+}
