@@ -46,6 +46,7 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$f4colour: #F4F6F9;
 
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -1157,3 +1158,7 @@ $panel-padding: 2rem;
 $margin-bottom: $alert-margin-bottom;
 $bg-color: $gray-400;
 // alert
+
+// Sport app
+
+$bd-bgcolour: $f4colour;
